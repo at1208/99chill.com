@@ -97,7 +97,7 @@ const Home = ({
     return (
       <Head>
         <title>
-          {`${process.env.NEXT_PUBLIC_APP_NAME}` | "99 reasons to binge watch"}
+          {`${process.env.NEXT_PUBLIC_APP_NAME} | 99 reasons to binge watch`}
         </title>
         <meta
           name="description"
