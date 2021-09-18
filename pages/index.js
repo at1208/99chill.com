@@ -96,19 +96,21 @@ const Home = ({
   function HeaderSEO() {
     return (
       <Head>
-        <title>{process.env.NEXT_PUBLIC_APP_NAME}</title>
+        <title>
+          {`${process.env.NEXT_PUBLIC_APP_NAME}` | "99 reasons to binge watch"}
+        </title>
         <meta
           name="description"
-          content="This site is a knowledge website based on our ancient medicinal knowledge to cure various diseases. All the medicinal herbs and their uses in different diseases. Herbs can be searched by diseases name and vice versa."
+          content="99chill is an entertainment hub. Here, you'll come across movie and series reviews, categorically distributed movies based on different genres."
         />
         <link rel="canonical" href={`${process.env.NEXT_PUBLIC_DOMAIN_URL}`} />
         <meta
           property="og:title"
-          content={`This site is a knowledge website based on our ancient medicinal knowledge to cure various diseases. All the medicinal herbs and their uses in different diseases. Herbs can be searched by diseases name and vice versa. | ${process.env.NEXT_PUBLIC_APP_NAME}`}
+          content={`99chill is an entertainment hub. Here, you'll come across movie and series reviews, categorically distributed movies based on different genres. | ${process.env.NEXT_PUBLIC_APP_NAME}`}
         />
         <meta
           property="og:description"
-          content="This site is a knowledge website based on our ancient medicinal knowledge to cure various diseases. All the medicinal herbs and their uses in different diseases. Herbs can be searched by diseases name and vice versa."
+          content="99chill is an entertainment hub. Here, you'll come across movie and series reviews, categorically distributed movies based on different genres."
         />
         <meta property="og:type" content="website" />
         <meta
