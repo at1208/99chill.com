@@ -3,19 +3,19 @@ import Head from "next/head";
 export default function Header() {
   return (
     <Head>
-      <title>Elitegamezone</title>
+      <title>99Chill</title>
       <meta
         name="description"
-        content="Elitegamezone Is A Website For Gaming Nerds, The Website Would Provide All The Latest And The Greatest News In The Gaming World. Elitegamezone Would Be A One Stop Destination For Ant Gaming Related Queries."
+        content="99chill is an entertainment hub. Here, you'll come across movie and series reviews, categorically distributed movies based on different genres."
       />
       <link rel="canonical" href={`${process.env.NEXT_PUBLIC_DOMAIN_URL}`} />
       <meta
         property="og:title"
-        content={`Elitegamezone Is A Website For Gaming Nerds, The Website Would Provide All The Latest And The Greatest News In The Gaming World. Elitegamezone Would Be A One Stop Destination For Ant Gaming Related Queries. | ${process.env.NEXT_PUBLIC_APP_NAME}`}
+        content={`99chill is an entertainment hub. Here, you'll come across movie and series reviews, categorically distributed movies based on different genres. | ${process.env.NEXT_PUBLIC_APP_NAME}`}
       />
       <meta
         property="og:description"
-        content="Elitegamezone Is A Website For Gaming Nerds, The Website Would Provide All The Latest And The Greatest News In The Gaming World. Elitegamezone Would Be A One Stop Destination For Ant Gaming Related Queries."
+        content="99chill is an entertainment hub. Here, you'll come across movie and series reviews, categorically distributed movies based on different genres."
       />
       <meta property="og:type" content="website" />
       <meta

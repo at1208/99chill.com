@@ -22,7 +22,7 @@ const Category = ({ data, router }) => {
           />
           <meta
             property="og:title"
-            content={`99chill is an entertainment hub. Here, you'll come across movie and series reviews, categorically distributed movies based on different genres | ${process.env.NEXT_PUBLIC_APP_NAME}`}
+            content={`99chill is an entertainment hub. Here, you'll come across movie and series reviews, categorically distributed movies based on different genres. | ${process.env.NEXT_PUBLIC_APP_NAME}`}
           />
           <meta
             property="og:description"
