@@ -3,7 +3,7 @@ import Head from "next/head";
 export default function Header() {
   return (
     <Head>
-      <title>99Chill</title>
+      <title>99Chill | 99 reasons to binge watch</title>
       <meta
         name="description"
         content="99chill is an entertainment hub. Here, you'll come across movie and series reviews, categorically distributed movies based on different genres."
