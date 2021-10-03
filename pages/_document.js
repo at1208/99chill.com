@@ -10,7 +10,7 @@ class MyDocument extends Document {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'UA-208902431-1');
+        gtag('config', 'UA-161776444-2');
    `,
       };
     }
@@ -54,7 +54,7 @@ class MyDocument extends Document {
           <link rel="icon" href="/vedifly.svg" />
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-204324898-1"
+            src="https://www.googletagmanager.com/gtag/js?id=UA-161776444-2"
           ></script>
 
           <script
