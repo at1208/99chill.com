@@ -7,10 +7,10 @@ class MyDocument extends Document {
     if (process.env.NEXT_PUBLIC_PRODUCTION_API) {
       return {
         __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-204324898-1');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-208902431-1');
    `,
       };
     }
@@ -24,7 +24,7 @@ class MyDocument extends Document {
           <meta charSet="UTF-8" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-status-bar-style" content="yes" />
-          <meta name="apple-mobile-web-app-title" content="Vedifly" />
+          <meta name="apple-mobile-web-app-title" content="99chill" />
           <meta
             name="p:domain_verify"
             content="b2666a47ce2019ef96afa5b4b91da6a2"

@@ -2,8 +2,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.vedifly.com
+Host: https://www.99chill.com
 
 
 # Sitemaps
-Sitemap: https://www.vedifly.com/sitemap.xml
+Sitemap: https://www.99chill.com/sitemap.xml

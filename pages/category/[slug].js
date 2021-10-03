@@ -1,7 +1,8 @@
 import Head from "next/head";
 import { withRouter } from "next/router";
 import Layout from "../../components/Layout";
-import BlogMediumCard from "../../components/Blog/Cards/mediumCard";
+import { Grid, Typography } from "@material-ui/core";
+import BlogMediumCard from "../../components/Blog/Cards/Medium";
 import { blogs_list_by_category } from "../../actions/blog";
 import { capitalize } from "../../utils/helpers";
 import { category_by_slug } from "../../actions/category";
@@ -66,14 +67,15 @@ const Category = ({ data, router, category }) => {
       <>
         <Layout>
           <HeaderSEO />
-          <h1 className="text-center mb-5">{capitalize(category[0].name)}</h1>
-          <div className="row col container">
-            <div className="col-md-3"></div>
-            <div className="col-md-7">
+          <Typography variant="h3" align="center">
+            {capitalize(category[0].name)}
+          </Typography>
+          <br />
+          <Grid container justify="center">
+            <Grid item md={7} xs={12} sm={8} lg={7}>
               <BlogsByCategory />
-            </div>
-            <div className="col-md-1"></div>
-          </div>
+            </Grid>
+          </Grid>
         </Layout>
       </>
     );
