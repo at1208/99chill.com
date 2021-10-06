@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "../../styles/Header.module.css";
 import { isAuth, one_tap_login, authenticate } from "../../actions/auth";
-import { Grid } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 
 const Header = () => {
   const [user, setUser] = useState();
@@ -45,10 +45,13 @@ const Header = () => {
       <Grid container justify="space-between">
         <Grid item>
           <a href="/">
-            <img src="/vedifly.svg" className={styles.logo} alt="Vedifly" />
+            <img
+              src="/99chill-logo.png"
+              className={styles.logo}
+              alt="99chill.com"
+            />
           </a>
         </Grid>
-        <Grid item></Grid>
       </Grid>
     </div>
   );
