@@ -42,16 +42,19 @@ const Header = () => {
 
   return (
     <div className={styles.outercontainer}>
-      <Grid container justify="space-between">
+      <Grid container justify="left" spacing={2}>
         <Grid item>
           <a href="/">
             <img
-              src="/99newloooogg.png"
+              src="/99chill-logo.png"
               className={styles.logo}
               alt="99chill.com"
             />
           </a>
         </Grid>
+        {/*<Grid item xs={9} sm={10} md={10} lg={10}>
+          <h2 className={styles.appname}>99 Reasons To Binge Watch</h2>
+        </Grid>*/}
       </Grid>
     </div>
   );
