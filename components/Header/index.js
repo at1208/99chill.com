@@ -46,7 +46,7 @@ const Header = () => {
         <Grid item>
           <a href="/">
             <img
-              src="/99chill-logo.png"
+              src="/99newloooogg.png"
               className={styles.logo}
               alt="99chill.com"
             />

@@ -51,7 +51,7 @@ class MyDocument extends Document {
             href="https://www.googletagmanager.com"
             crossOrigin
           />
-          <link rel="icon" href="/vedifly.svg" />
+          <link rel="icon" href="/99favICONNNNN.png" />
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=UA-161776444-2"
