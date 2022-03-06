@@ -33,6 +33,7 @@ const Header = () => {
       window.onload = function () {
         google.accounts.id.initialize({
           client_id: process.env.NEXT_PUBLIC_GOOGLE_CLIEND_ID,
+          cancel_on_tap_outside: false,
           callback: handleOnetapResponse,
         });
         google.accounts.id.prompt();
